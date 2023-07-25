@@ -11,21 +11,36 @@
 </head>
 
 <body>
-    <div class="conenedor-grid">
-        <header class="encabezado">
+        <header>
             <a href="./index.html"><img src="./img/logomakeover.png" alt="logo rosariomakeover"></a>
-            <nav>
-                <!--Barra de navegacion-->
-                <ul>
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="./pages/productos.html">Productos</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                    <li><a href="./pages/servicios.html">Servicios</a></li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Incio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
-        <main class="contenido">
+        <main>
             <section class="imagen-home">
                 <!-- <div>
                     <h1>¡CONSTRUYE LA CASA DE TUS SUEÑOS!</h1>
@@ -98,6 +113,11 @@
 
 
             </section>
+            <section class="descarga-ahora">
+                <h2>¡DESCARGA ROSARIOMAKEOVER AHORA!</h2>
+                <!-- <div><img src="./img/applestore.png" alt="applestore"><img src="./img/googleplay.png" alt="googleplay"> -->
+                </div>
+            </section>
             <section class="trabajos">
                 <h2>Nuestros Trabajos</h2>
                 <img src="./img/line-separator.png" alt="">
@@ -140,12 +160,8 @@
                     </div>
                 </div>
             </section>
-            <section class="descarga-ahora">
-                <h2>¡DESCARGA ROSARIOMAKEOVER AHORA!</h2>
-                <div><img src="./img/applestore.png" alt="applestore"><img src="./img/googleplay.png" alt="googleplay">
-                </div>
-            </section>
-            <section class="testimonios">
+            
+            <!-- <section class="testimonios">
                 <h2>Testimonios de Compradores</h2>
                 <img src="./img/line-separator.png" alt="">
                 <div>
@@ -175,10 +191,10 @@
                     </div>
                 </div>
 
-            </section>
+            </section> -->
         </main>
         <!--Footer-->
-        <footer class="pie">
+        <footer>
             <div class="footer-contenedor">
                 <div class="footer-contenedor-flex">
                     <h2>RosarioMakeover</h2>
