@@ -748,7 +748,16 @@ h1 {
     max-width: 600px;
 }
 .otros{
+    border-top: 1px solid #5E5E5E;
+    padding-top: 10px;
     text-align: center;
+    margin-bottom: 40px;
+}
+.otros h2{
+    color: #5E5E5E;
+}
+.otros > img{
+    margin-bottom: 30px;
 }
 .otros-productos{
     margin-left: 10%;
