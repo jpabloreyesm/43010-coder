@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: nth($colores, 2);
+    img{
+        width: 310px;
+    }
+    nav{
+        div{
+            div{
+                ul{ 
+                    list-style: none;
+                    display: flex;
+                    li{
+                        a{
+                            text-decoration: none !important;
+                            margin-right: 14px !important;
+                            font-size: nth($font-size, 8) !important;
+                            font-weight: 700 !important;
+                            font-family: 'Ysabeau Infant', sans-serif !important;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    
+}

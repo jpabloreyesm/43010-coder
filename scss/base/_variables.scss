@@ -1,0 +1,57 @@
+$font-size:
+50px,
+40px,
+35px,
+33px,
+30px,
+27px,
+25px,
+22px,
+20px,
+17px,
+15px;
+
+$colores:
+#000,
+#fff,
+#5e5e5e,
+#E5E5E5,
+#F2F4FF,
+#FFF8DC,
+#6495ED;
+
+%imagen{
+    width: 100%;
+    height: calc(70vh);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: nth($colores, 1);
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-bottom:30px; 
+}
+
+@mixin flex-dir ($direction){
+    display: flex;
+    flex-direction: $direction;
+
+}
+@mixin flex-dir-ali ($direction, $align){
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+}
+@mixin flex-dir-jus ($direction, $justify){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+@mixin flex-dir-ali-jus ($direction, $align, $justify){
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
+// $font-size:

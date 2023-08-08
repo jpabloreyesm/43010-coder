@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+body {
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+h1 {
+    color: #000;
+}
+.boton-background1 {
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 45px;
+    color: #5e5e5e;
+    border: 1px solid #5e5e5e;
+    &:hover{
+        color: #FFF8DC;
+        background-color: #5e5e5e;
+    }
+}
+.boton-background2 {
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 45px;
+    color: #fff;
+    border: 1px solid #fff;
+    &:hover{
+        color: #6495ED;
+        background-color: #fff;
+    }
+}
+.boton {
+    text-decoration: none;
+    color: white;
+    background-color: #5e5e5e;
+    font-size: 18px;
+    padding-right: 25px;
+    border-radius: 40px;
+    padding-left: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 180px;
+    &:hover{
+        color: #5e5e5e;
+        background-color: white;
+        border:1px solid #5e5e5e; 
+    }
+}
+
+// BOOTSTRAP
+.bg-light {
+    background-color: #fff !important;
+}

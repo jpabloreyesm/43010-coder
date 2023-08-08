@@ -1,0 +1,40 @@
+footer{
+    padding: 20px;
+    height: 200px;
+    background-color: nth($colores, 4);
+    .footer-contenedor{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .footer-contenedor-flex{
+            width: 20%;
+            h2{
+                margin-bottom: 8px;
+                color: nth($colores, 3);
+                font-size: nth($font-size, 8);
+            }
+            ul{
+                list-style: none;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: nth($colores, 3);
+                        margin-right: 14px;
+                        font-size: nth($font-size, 9);
+                        font-weight: 100;
+                    }
+                }
+            }
+            img{
+                margin-right: 12px;
+                width: 45px;
+            }
+            .descarga{
+                display: block;
+                margin-bottom: 10px;
+                width: 120px;
+            }
+        }
+    }
+}
