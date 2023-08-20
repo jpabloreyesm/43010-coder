@@ -11,6 +11,23 @@ body {
 }
 h1 {
     color: #000;
+    text-align: center !important;
+    background-color: #E5E5E5 !important;
+    animation: deslizar-titulo;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    white-space: pre;
+}
+@keyframes deslizar-titulo {
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 0;
+    }
 }
 .boton-background1 {
     text-decoration: none;
@@ -26,6 +43,8 @@ h1 {
     margin-bottom: 45px;
     color: #5e5e5e;
     border: 1px solid #5e5e5e;
+    transition-property: color;
+    transition-duration: 2s;
     &:hover{
         color: #FFF8DC;
         background-color: #5e5e5e;
@@ -45,6 +64,8 @@ h1 {
     margin-bottom: 45px;
     color: #fff;
     border: 1px solid #fff;
+    transition-property: color;
+    transition-duration: 2s;
     &:hover{
         color: #6495ED;
         background-color: #fff;
@@ -61,6 +82,8 @@ h1 {
     padding-top: 8px;
     padding-bottom: 8px;
     width: 180px;
+    transition-property: color;
+    transition-duration: 2s;
     &:hover{
         color: #5e5e5e;
         background-color: white;

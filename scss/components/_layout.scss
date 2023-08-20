@@ -16,6 +16,7 @@
                 align-items: center;
                 justify-content: center;
                 object-fit: cover;
+                margin-bottom: 20px;
             }
         }
     }
@@ -101,6 +102,7 @@
                 img{
                     width: 68px;
                     margin: 30px 35px 30px 50px;
+                   
                 }
                 p{
                     font-size: nth($font-size, 9);
@@ -132,6 +134,7 @@
 
     }
 }
+
 .descarga-ahora{
     @include flex-dir-ali(column,center);
     background-color: nth($colores, 4);
@@ -166,12 +169,14 @@
             width: 50%;
             @include flex-dir(row);
             div{
+                transition: 1s;
                 margin-bottom: 40px;
                 .trabajos-tarjeta{
                     border: 1px solid;
                     width: 80%;
                     margin-left: 10%;
                     padding-bottom: 30px;
+                    
                     @include flex-dir-ali(column, center);
                     img{
                         width: 100%;
@@ -180,6 +185,9 @@
                         font-size: nth($font-size, 7);
                         font-weight: 600;
                     }
+                }
+                &:hover{
+                    scale: (1.1);
                 }
             }
         }
